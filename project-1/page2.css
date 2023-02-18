@@ -93,4 +93,97 @@ p {
     font-family: "GTPressura-ExtendedText";
     font-size: calc(0.8*var(--font-size));
 }
+
+
+
+
+
+
+
+
+
+/* PATHS */
+
+.paths {
+    width: 120%;
+    margin: 0 -10%;
+    padding-bottom: 5em;
+}
+
+
+.div {
+    height: 50px;
+    width: 100%;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    margin: 20px 0 20px 0;
+}
+
+
+section:nth-child(1) {
+    overflow-x: hidden;
+}
+
+
+div:nth-child(1) {
+    background-color: var(--pink);
+    transform: rotate(5deg);
+    z-index: 1;
+}
+
+div:nth-child(2) {
+    background-color: transparent;
+    transform: rotate(-3deg);
+    z-index: 2;
+}
+
+div:nth-child(3) {
+    background-color: var(--green);
+    transform: rotate(.5deg);
+    z-index: 9;
+}
+
+div:nth-child(4) {
+    background-color: var(--red);
+    transform: rotate(7.5deg);
+    z-index: 1;
+}
+
+div:nth-child(5) {
+    background-color: var(--blue);
+    transform: rotate(3deg);
+}
+
+div:nth-child(6) {
+    background-color: var(--olive);
+    transform: rotate(2deg);
+    z-index: 3;
+}
+
+div:nth-child(7) {
+    background-color: var(--purple);
+    transform: rotate(15deg);
+}
+
+div:nth-child(8) {
+    background-color: var(--orange);
+    transform: rotate(-15deg);
+}
+
+div:nth-child(9) {
+    background-color: var(--lilac);
+    transform: rotate(-5deg);
+}
+
+div:nth-child(10) {
+    background-color: transparent;
+    transform: rotate(-3deg);
+}
+
+div:nth-child(11) {
+    background-color: var(--pink);
+    transform: rotate(7.5deg);
+}
+
+
 }
