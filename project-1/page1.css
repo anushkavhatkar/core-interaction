@@ -1,0 +1,78 @@
+:root {
+    --pink: #EFAEDE;
+    --yellow: #F2F60F;
+    --green: #AAD994;
+    --purple: #5F2D77;
+    --red: #F5302D;
+    --blue: #1065A8;
+    --olive: #ACAF22;
+    --orange: #FF7251;
+    --lilac: #EBDFED;
+    --shell: #FBF2F2;
+
+
+    --font-size: 20px;
+
+}
+
+
+/* FONTS */ 
+
+@font-face {
+    font-family: "Avara-Italic";
+    src: url("../fonts/Avara-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Circular-Regular";
+    src: url("../fonts/CircularXXTrial-Regular.otf");
+}
+
+@font-face {
+    font-family: "GTPressura-ExtendedText";
+    src: url(../fonts/GT-Pressura-Extended-Text-Trial.otf);
+}
+
+
+
+/* SET UP */
+
+
+body {
+    background: linear-gradient(var(--shell), var(--pink));
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    min-height: 30px;
+    width: 100vw;
+    background-color: var(--pink);
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    border-top: .5px solid black;
+    border-bottom: .5px solid black;
+}
+
+main { 
+    padding-top: 60px;
+}
+
+.wrapper {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+h1 { 
+    font-family: "Avara-Italic";
+    font-size: calc(var(--font-size) * 2.5);
+}
+
+p { 
+    font-family: "GTPressura-ExtendedText";
+    font-size: calc(0.9*var(--font-size));
+}
+
+
