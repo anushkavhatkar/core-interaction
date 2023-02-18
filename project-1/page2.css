@@ -73,6 +73,36 @@ nav {
     right:0;
     border-top: .5px solid black;
     border-bottom: .5px solid black;
+    z-index: 9;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.home {
+    font-family: "GTPressura-MonoRegular";
+    font-size: calc(0.8*var(--font-size));
+    padding-right: 1em;
+    
+}
+
+a:nth-child(1) {
+    font-family: "GTPressura-MonoRegular";
+    font-size: calc(0.8*var(--font-size));
+    padding-right: 1em;
+    color: black;
+    text-decoration: overline;
+}
+
+a:hover {
+    text-decoration: underline dashed .1em;
+}
+
+
+
+/* MAIN, H1, BODY TEXT */
+
 main { 
     padding-top: 3em;
     padding-bottom: 2em;
