@@ -47,6 +47,11 @@ div {
     margin: 20px 0 20px 0;
 }
 
+a {
+    display: block;
+}
+
+
 .paths {
     width: 120vw;
     margin: 0 -10vw;
@@ -101,4 +106,66 @@ div {
     background-color: var(--lilac);
     transform: rotate(-5deg);
 }
+
+
+
+
+
+
+/* HOVER ANIMATIONS FOR INDEX PAGE -> TRANSLATES/ RUNS ALONG PATH */
+
+.pink-path:hover {
+    /* transform: rotate(7deg); */
+    transition-duration: 2s, 1s;
+    transform: translate(-120%);
+
+}
+
+.yellow-path:hover {
+    transform: rotate(-6deg);
+    transition-duration: 2s, 1s;
+    transform: translate(120%);
+}
+
+.green-path:hover { 
+    transform: rotate(2deg);
+    transition-duration: 2s, 1s;
+    transform: translate(-160%);
+}
+
+.red-path:hover { 
+    
+    transform: rotate(-7.5deg);
+    transition-duration: 2s, 1s;
+    transform: translate(120%);
+}
+
+.blue-path:hover {
+    transition-duration: 2s, 1s;
+    transform: translate(-120%);
+}
+
+.olive-path:hover {
+    transition-duration: 2s, 1s;
+    transform: translate(110%);
+}
+
+.purple-path:hover {
+    transition-duration: 2s, 1s;
+    transform: translate(-120%);
+}
+
+.orange-path:hover {
+    transition-duration: 2s, 1s;
+    transform: translate(-120%);
+}
+
+.lilac-path:hover {
+    transition-duration: 2s, 1s;
+    transform: translate(150%);
+}
+
+
+
+/* MEDIA QUERIES */
 
