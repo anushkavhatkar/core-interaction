@@ -36,13 +36,22 @@
 
 body { 
     background-color: var(--shell);
+    overflow-x: hidden;
 }
+
 div {
     height: 50px;
     width: 100%;
     border-top: 1px black solid;
     border-bottom: 1px black solid;
+    margin: 20px 0 20px 0;
 }
+
+.paths {
+    width: 120vw;
+    margin: 0 -10vw;
+}
+
 .pink-path {
     background-color: var(--pink);
     transform: rotate(5deg);
