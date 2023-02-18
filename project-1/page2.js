@@ -42,3 +42,22 @@
 //         divFour.style.display = "block";
 //     }
 // }; 
+
+
+
+ // myArr = ["p1", "p2"];
+ // let progress = "0";
+
+ // section.addEventListener("click"){
+
+// p.onclick = () => {
+    // p.innerHTML += "<br><br>I went up to my bedroom. Absurd though the gesture was, I closed and locked the door. I threw myself down on my narrow iron bed, and waited on my back. The never changing rooftops filled the window, and the hazy six o'clock sun hung in the sky. It seemed incredible that this day, a day without warnings or omens, might be that of my implacable death. In despite of my dead father, in despite of having been a child in one of the symmetrical gardens of Hai Feng, was I to die now?";
+
+    // progress += 1;
+
+    // paragraphContent = myArr[progress]; 
+
+    // p.innterHTML += paragraphContent 
+
+
+// myArr
