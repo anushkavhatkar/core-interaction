@@ -47,3 +47,30 @@
 
 
 
+/* SET UP */
+
+/* STRUCTURE --> body [[NAV] ([MAIN.WRAPPER] [H1] [P BODY TEXT]) ([SECTION.CLASS] [DIVS PATH]) ]  */
+
+
+body {
+    background: linear-gradient(var(--shell), var(--yellow));
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* NAV BAR */
+
+nav {
+    
+    min-height: 30px;
+    width: 100%;
+    background-color: var(--yellow);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    border-top: .5px solid black;
+    border-bottom: .5px solid black;
+}
