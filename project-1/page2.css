@@ -216,7 +216,65 @@ div:nth-child(11) {
 }
 
 
+/* PATH HOVER ANIMATIONS */
+
+
+
+.pink-path:hover {
+    transform: rotate(7deg);
+    transition-duration: 2s, 1s;
+    
+
 }
+
+/* .yellow-path:hover {
+    transform: rotate(-6deg);
+    transition-duration: 2s, 1s;
+    
+} */
+
+.green-path:hover { 
+    transform: rotate(2deg);
+    transition-duration: 2s, 1s;
+    
+}
+
+.red-path:hover { 
+    transform: rotate(9deg);
+    transition-duration: 2s, 1s;
+    
+}
+
+.blue-path:hover {
+    transform: rotate(0deg);
+    transition-duration: 2s, 1s;
+    
+}
+
+.olive-path:hover {
+    transform: rotate(-1deg);
+    transition-duration: 2s, 1s;
+    
+}
+
+.purple-path:hover {
+    transform: rotate(18deg);
+    transition-duration: 2s, 1s;
+    
+}
+
+.orange-path:hover {
+    transform: rotate(-18deg);
+    transition-duration: 2s, 1s;
+}
+
+.lilac-path:hover {
+    transform: rotate(-3deg);
+    transition-duration: 2s, 1s;
+}
+
+
+
 /* MEDIA QUERIES */
 
 @media (max-width: 992px) {
