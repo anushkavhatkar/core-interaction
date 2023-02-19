@@ -135,7 +135,60 @@ p {
 
 
 
+/* TOGGLE SECTIONS */
 
+#sone {
+    background-color: transparent;
+    border-radius: .5em;
+    border: .15em var(--yellow) solid;
+}
+
+#stwo {
+    /* background-color: var(--green); */
+    background-color: transparent;
+    border-radius: .5em;
+    border: .15em var(--green) solid;
+}
+
+#sthree {
+    /* background-color: var(--orange); */
+    background-color: transparent;
+    border-radius: .5em;
+    border: .15em var(--orange) solid;
+}
+
+#sfour {
+    /* background-color: var(--olive); */
+    background-color: transparent;
+    border-radius: .5em;
+    border: .15em var(--olive) solid;
+}
+
+#sfive {
+    /* background-color: var(--pink); */
+    background-color: transparent;
+    border-radius: .5em;
+    border: .15em var(--pink) solid;
+}
+
+#ssix { 
+    /* background-color: var(--red); */
+    background-color: transparent;
+    border-radius: .5em;
+    border: .15em var(--red) solid;
+}
+
+#sseven {
+    /* background-color: var(--green); */
+    background-color: transparent;
+    border-radius: .5em;
+    border: .15em var(--green) solid;
+}
+
+#sone, #stwo, #sthree, #sfour, #sfive, #ssix, #sseven {
+    margin-bottom: .5em;
+    padding: .5em;
+}
 
 
 
