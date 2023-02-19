@@ -41,8 +41,6 @@
 
 /* SET UP */
 
-/* STRUCTURE --> body [  [NAV]     /[MAIN.WRAPPER] [H1] [P BODY TEXT]/    /[SECTION.CLASS] [DIVS PATH]/ ]  */
-
 /* STRUCTURE --> body [  [NAV]     / [MAIN.WRAPPER] [H1] [[ARTICLES][P]] /    / [SECTION.CLASS] [DIVS PATH] / ]  */
 
 html {
@@ -105,7 +103,6 @@ a:hover {
 
 
 
-/* MAIN, WRAPPER, H1, P */
 /* MAIN, WRAPPER, H1, ARTICLE, P */
 
 
@@ -132,6 +129,45 @@ p {
 }
 
 
+article {
+    display: block;
+}
+
+#p1 {
+    background-color: var(--yellow);
+    transform: rotate(1deg);
+    position: absolute;
+    top: 15em;
+    width: 60%;
+    
+}
+
+#p2 {
+    background-color: var(--green);
+    transform: rotate(0deg);
+    position: absolute;
+    top: 25em;
+    width: 60%;
+}
+
+#p3 {
+    background-color: var(--red);
+    transform: rotate(-1deg);
+    position: absolute;
+    top: 35em;
+    width: 60%;
+}
+
+#p4 {
+    background-color: var(--olive);
+    transform: rotate(1.5deg);
+    position: absolute;
+    top: 45em;
+    width: 60%;
+}
+
+
+
 
 
 
@@ -139,6 +175,11 @@ p {
 
 
 /* PATHS */
+
+section {
+    position: absolute;
+    top: 65em;
+}
 
 .paths {
     width: 120%;
@@ -291,12 +332,20 @@ div:nth-child(11) {
         margin: 0 auto;
     }
 
+    #p1, #p2, #p3, #p4 {
+        width: 70%
+    }
+
 }
 
 @media (max-width: 768px) {
     .wrapper {
         width: 80%;
         margin: 0 auto;
+    }
+
+    #p1, #p2, #p3, #p4 {
+        width: 80%
     }
 
     .div {
@@ -320,7 +369,6 @@ div:nth-child(11) {
     
         min-height: 30px;
         width: 100%;
-        background-color: var(--yellow);
         position: fixed;
         top: 0;
         left: 0;
