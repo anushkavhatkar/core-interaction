@@ -1,0 +1,386 @@
+:root {
+    --pink: #EFAEDE;
+    --yellow: #F2F60F;
+    --green: #AAD994;
+    --purple: #5F2D77;
+    --red: #F5302D;
+    --blue: #1065A8;
+    --olive: #ACAF22;
+    --orange: #FF7251;
+    --lilac: #EBDFED;
+    --shell: #FBF2F2;
+
+
+    --font-size: 20px;
+
+}
+
+
+/* FONTS */ 
+
+@font-face {
+    font-family: "Avara-Italic";
+    src: url("../fonts/Avara-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Circular-Regular";
+    src: url("../fonts/CircularXXTrial-Regular.otf");
+}
+
+@font-face {
+    font-family: "GTPressura-ExtendedText";
+    src: url(../fonts/GT-Pressura-Extended-Text-Trial.otf);
+}
+
+@font-face {
+    font-family: "GTPressura-MonoRegular";
+    src: url(../fonts/GT-Pressura-Mono-Regular-Trial.otf);
+}
+
+
+/* SET UP */
+
+/* STRUCTURE --> body [  [NAV]     / [MAIN.WRAPPER] [H1] [[ARTICLES][P]] /    / [SECTION.CLASS] [DIVS PATH] / ]  */
+
+html {
+    /* background: linear-gradient(var(--shell), var(--pink)); */
+    height: 100%;
+    /* width: 100%; */
+}
+
+body {
+    /* background-color: var(--pink); */
+    background: linear-gradient(var(--red), var(--shell));
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    position: absolute;
+    z-index: 9;
+    background-attachment: fixed !important;
+
+}
+
+
+/* NAV BAR */
+
+nav {
+    min-height: 30px;
+    width: 100vw;
+    background-color: var(--red);
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    border-top: .5px solid black;
+    border-bottom: .5px solid black;
+
+    z-index: 9;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.home {
+    font-family: "GTPressura-MonoRegular";
+    font-size: calc(0.8*var(--font-size));
+    padding-right: 1em;
+    
+}
+
+a:nth-child(1) {
+    font-family: "GTPressura-MonoRegular";
+    font-size: calc(0.8*var(--font-size));
+    padding-right: 1em;
+    color: black;
+    text-decoration: overline;
+}
+
+a:hover {
+    text-decoration: underline dashed .1em;
+}
+
+
+
+
+/* MAIN, WRAPPER, H1, ARTICLE, P */
+
+
+
+main { 
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1 { 
+    font-family: "Avara-Italic";
+    font-size: calc(var(--font-size) * 2.5);
+    margin-bottom: -.5em;
+}
+
+article {
+    margin-top: 2em;
+}
+
+
+p, label { 
+    font-family: "GTPressura-ExtendedText";
+    font-size: calc(0.8*var(--font-size));
+}
+
+
+
+
+
+/* #p1 {
+    background-color: var(--yellow);
+    transform: rotate(1deg);
+    position: absolute;
+    top: 15em;
+    width: 60%;
+    
+}
+
+#p2 {
+    background-color: var(--green);
+    transform: rotate(0deg);
+    position: absolute;
+    top: 25em;
+    width: 60%;
+}
+
+#p3 {
+    background-color: var(--red);
+    transform: rotate(-1deg);
+    position: absolute;
+    top: 35em;
+    width: 60%;
+}
+
+#p4 {
+    background-color: var(--olive);
+    transform: rotate(1.5deg);
+    position: absolute;
+    top: 45em;
+    width: 60%;
+}
+
+
+ */
+
+
+
+
+
+
+/* PATHS */
+
+
+.paths {
+    width: 120%;
+    margin: 0 -10%;
+    padding-bottom: 5em;
+}
+
+
+.div {
+    height: 50px;
+    width: 100%;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    margin: 20px 0 20px 0;
+}
+
+
+section:nth-child(1) {
+    overflow-x: hidden;
+}
+
+
+div:nth-child(1) {
+    background-color: var(--pink);
+    transform: rotate(5deg);
+    z-index: 1;
+}
+
+div:nth-child(2) {
+    background-color: var(--yellow);
+    transform: rotate(-3deg);
+    z-index: 2;
+}
+
+div:nth-child(3) {
+    background-color: var(--green);
+    transform: rotate(.5deg);
+    z-index: 9;
+}
+
+div:nth-child(4) {
+    background-color: transparent;
+    transform: rotate(7.5deg);
+    z-index: 1;
+}
+
+div:nth-child(5) {
+    background-color: var(--blue);
+    transform: rotate(3deg);
+}
+
+div:nth-child(6) {
+    background-color: var(--olive);
+    transform: rotate(2deg);
+    z-index: 3;
+}
+
+div:nth-child(7) {
+    background-color: var(--purple);
+    transform: rotate(15deg);
+}
+
+div:nth-child(8) {
+    background-color: var(--orange);
+    transform: rotate(-15deg);
+}
+
+div:nth-child(9) {
+    background-color: var(--lilac);
+    transform: rotate(-5deg);
+}
+
+div:nth-child(10) {
+    background-color: var(--yellow);
+    transform: rotate(-3deg);
+}
+
+div:nth-child(11) {
+    background-color: var(--pink);
+    transform: rotate(7.5deg);
+}
+
+
+
+
+/* PATH HOVER ANIMATIONS */
+
+
+
+.pink-path:hover {
+    transform: rotate(7deg);
+    transition-duration: 2s, 1s;
+    
+
+}
+
+.yellow-path:hover {
+    transform: rotate(-6deg);
+    transition-duration: 2s, 1s;
+    
+}
+
+.green-path:hover { 
+    transform: rotate(2deg);
+    transition-duration: 2s, 1s;
+    
+}
+
+/* .red-path:hover { 
+    transform: rotate(9deg);
+    transition-duration: 2s, 1s;
+    
+} */
+
+.blue-path:hover {
+    transform: rotate(0deg);
+    transition-duration: 2s, 1s;
+    
+}
+
+.olive-path:hover {
+    transform: rotate(-1deg);
+    transition-duration: 2s, 1s;
+    
+}
+
+.purple-path:hover {
+    transform: rotate(18deg);
+    transition-duration: 2s, 1s;
+    
+}
+
+.orange-path:hover {
+    transform: rotate(-18deg);
+    transition-duration: 2s, 1s;
+}
+
+.lilac-path:hover {
+    transform: rotate(-3deg);
+    transition-duration: 2s, 1s;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+
+@media (max-width: 992px) {
+    .wrapper {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #p1, #p2, #p3, #p4 {
+        width: 70%
+    }
+
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #p1, #p2, #p3, #p4 {
+        width: 80%
+    }
+
+    .div {
+        height: 30px;
+        margin: 10px 0 10px 0;
+    }
+
+    h1 { 
+        font-size: calc(var(--font-size) * 1.7);
+    }
+
+    p { 
+        font-size: calc(0.6*var(--font-size));
+    }
+
+    .home {
+        padding-right: 4em;
+    }
+
+    nav {
+    
+        min-height: 30px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right:0;
+        border-top: .5px solid black;
+        border-bottom: .5px solid black;
+        z-index: 9;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+}
