@@ -50,8 +50,8 @@ html {
 }
 
 body {
-    /* background-color: var(--pink); */
-    background: linear-gradient(var(--red), var(--shell));
+    /* background-color: var(--red); */
+    background: linear-gradient(var(--shell), var(--red));
     height: 100%;
     width: 100%;
     overflow-x: hidden;
