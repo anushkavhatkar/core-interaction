@@ -43,13 +43,24 @@
 
 /* STRUCTURE --> body [  [NAV]     /[MAIN.WRAPPER] [H1] [P BODY TEXT]/    /[SECTION.CLASS] [DIVS PATH]/ ]  */
 
+/* STRUCTURE --> body [  [NAV]     / [MAIN.WRAPPER] [H1] [[ARTICLES][P]] /    / [SECTION.CLASS] [DIVS PATH] / ]  */
 
+html {
+    /* background: linear-gradient(var(--shell), var(--pink)); */
+    height: 100%;
+    /* width: 100%; */
+}
 
 body {
+    /* background-color: var(--pink); */
     background: linear-gradient(var(--shell), var(--pink));
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+    position: absolute;
+    z-index: 9;
+    background-attachment: fixed !important;
+
 }
 
 
@@ -95,6 +106,7 @@ a:hover {
 
 
 /* MAIN, WRAPPER, H1, P */
+/* MAIN, WRAPPER, H1, ARTICLE, P */
 
 
 
