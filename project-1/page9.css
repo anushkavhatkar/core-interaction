@@ -141,6 +141,7 @@ p {
     background-color: transparent;
     border-radius: .5em;
     border: .15em var(--yellow) solid;
+    display: block;
 }
 
 #stwo {
@@ -148,6 +149,7 @@ p {
     background-color: transparent;
     border-radius: .5em;
     border: .15em var(--green) solid;
+    display: block;
 }
 
 #sthree {
@@ -155,6 +157,7 @@ p {
     background-color: transparent;
     border-radius: .5em;
     border: .15em var(--orange) solid;
+    display: block;
 }
 
 #sfour {
@@ -162,6 +165,7 @@ p {
     background-color: transparent;
     border-radius: .5em;
     border: .15em var(--olive) solid;
+    display: block;
 }
 
 #sfive {
@@ -169,6 +173,7 @@ p {
     background-color: transparent;
     border-radius: .5em;
     border: .15em var(--pink) solid;
+    display: block;
 }
 
 #ssix { 
@@ -176,6 +181,7 @@ p {
     background-color: transparent;
     border-radius: .5em;
     border: .15em var(--red) solid;
+    display: block;
 }
 
 #sseven {
@@ -183,6 +189,7 @@ p {
     background-color: transparent;
     border-radius: .5em;
     border: .15em var(--green) solid;
+    display: block;
 }
 
 #sone, #stwo, #sthree, #sfour, #sfive, #ssix, #sseven {
