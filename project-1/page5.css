@@ -176,7 +176,7 @@ section:nth-child(1) {
 }
 
 
-div:nth-child(1) {
+/* div:nth-child(1) {
     background-color: var(--pink);
     transform: rotate(5deg);
     z-index: 1;
@@ -234,10 +234,58 @@ div:nth-child(10) {
 div:nth-child(11) {
     background-color: var(--pink);
     transform: rotate(7.5deg);
+} */
+
+
+.pink-path {
+    background-color: var(--pink);
+    transform: rotate(5deg);
+    z-index: 1;
 }
 
+.yellow-path {
+    background-color: var(--yellow);
+    transform: rotate(-3deg);
+    z-index: 2;
+}
 
+.green-path {
+    background-color: var(--green);
+    transform: rotate(.5deg);
+    z-index: 9;
+}
 
+.red-path {
+    background-color: var(--red);
+    transform: rotate(7.5deg);
+    z-index: 1;
+}
+
+.blue-path {
+    background-color: transparent;
+    transform: rotate(3deg);
+}
+
+.olive-path {
+    background-color: var(--olive);
+    transform: rotate(2deg);
+    z-index: 3;
+}
+
+.purple-path {
+    background-color: var(--purple);
+    transform: rotate(15deg);
+}
+
+.orange-path {
+    background-color: var(--orange);
+    transform: rotate(-15deg);
+}
+
+.lilac-path {
+    background-color: var(--lilac);
+    transform: rotate(-5deg);
+}
 
 /* PATH HOVER ANIMATIONS */
 
