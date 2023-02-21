@@ -142,8 +142,14 @@ p, label {
 }
 
 
+.hover:hover {
+    background-color: var(--orange);
+    color: black;
+}
 
-
+#highlight {
+    color: transparent;
+}
 
 
 
